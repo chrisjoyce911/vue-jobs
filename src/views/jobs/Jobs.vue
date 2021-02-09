@@ -11,26 +11,14 @@
 export default {
   data() {
     return {
-      jobs: [
-        {
-          title: "UX Designer",
-          id: 1,
-          details:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima ad incidunt, officiis repellat asperiores, dolorem voluptatibus quibusdam ea sint ex unde explicabo amet recusandae!",
-        },
-        {
-          title: "Web Developer",
-          id: 2,
-          details:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum id aliquid laboriosam praesentium, nobis sit adipisci impedit nisi aliquam recusandae reprehenderit dolorum minus, mollitia",
-        },
-        {
-          title: "Vue Developer",
-          id: 3,
-          details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        },
-      ],
+      jobs: [],
     };
+  },
+  mounted() {
+    fetch("http://localhost:3000/jobs")
+      .then((res) => res.json())
+      .then((data) => (this.jobs = data))
+      .catch((err) => console.log(err.message));
   },
 };
 </script>
