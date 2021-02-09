@@ -1,15 +1,18 @@
 <template>
   <div class="home">
     <h1>HomePage</h1>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat qui ad
-    necessitatibus quam modi magni et quos ab. Tenetur recusandae similique,
-    nihil aliquid possimus deleniti provident nostrum fugiat nulla culpa. Lorem
-    ipsum dolor sit amet consectetur adipisicing elit. Consectetur, earum porro
-    obcaecati accusantium esse voluptatem debitis et. Quibusdam delectus rem
-    excepturi dolorem dolores nulla omnis, ipsa doloribus vitae odit est. Lorem,
-    ipsum dolor sit amet consectetur adipisicing elit. Amet nihil beatae officia
-    ullam modi architecto, maiores sunt rem, eaque possimus illum ducimus
-    dignissimos eos explicabo nobis, maxime qui consectetur suscipit.
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque animi
+      maiores exercitationem minima amet placeat, accusantium possimus quis eos
+      praesentium, officiis at natus? Alias quae dicta rem officiis maxime
+      maiores.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+      labore a illo consequuntur, nesciunt neque similique voluptatem at qui
+      illum ipsum provident aspernatur alias excepturi corporis pariatur nihil
+      exercitationem cumque.
+    </p>
   </div>
 </template>
 
