@@ -15,5 +15,7 @@ yarn serve
 yarn build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Local json server
+```
+yarn run json-server --watch src/data/db.json 
+```
